@@ -52,17 +52,28 @@ nav li{
     width:57%;
     margin-top:370px;
     font-weight:400;
+    
 }
 .text-image div:nth-child(2){
     width:50%;
     font-size:16px;
-    
+    font-weight:200;
 }
-
-.container .text-leadership{
+.box-float{
+    /* width:100%;
+    background-color:#2e86fe; */
+    margin-top:30px;
+}
+.text-leadership{
     width:100%;
     height:100px;
-    background-color:#abcfe8;
+}
+.text-leadership h1{
+    font-size:40px;
+}
+.text-leadership div{
+    font-size:18px;
+    color:#bcbcbc;
 }
 .box1, .box2, .box3{
     background-color:#abcfe8;
@@ -89,12 +100,7 @@ nav li{
     margin-bottom:30px;
     margin-top:30px;
 }
-.box-float{
-    width:100%;
-    background-color:#2e86fe;
-    margin-top:30px;
-   
-}
+
 footer{
     width:100%;
     height:100px;
