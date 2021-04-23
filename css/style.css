@@ -75,10 +75,10 @@ nav li{
     font-size:18px;
     color:#bcbcbc;
 }
-.box1, .box2, .box3{
-    /* background-color:#abcfe8; */
-    border:1px solid black;
-}
+/* .box1, .box2, .box3{
+    background-color:#abcfe8;
+    
+} */
 .box-float .box1{
     width:calc(20% - 15px);
     height:450px;
@@ -105,11 +105,13 @@ nav li{
 .titolo-sotto{
     font-weight:300;
     font-size: 16px;
+    margin-top:10px;
 }
 .sottotitolo-sotto{
     font-size:14px;
     margin-top:20px;
     color:#bcbcbc;
+    margin-top:10px;
 }
 .box-banner{
     width:100%; 
@@ -121,10 +123,24 @@ nav li{
 .image{
     background-image:url("../img/banner-2.jpg")
 } 
-
+.box-image{
+    width:100%; 
+    height:201px; 
+    background-size:100%;
+    background-repeat:no-repeat;
+    vertical-align: middle;
+}
+.image2{
+    background-image:url("../img/img-3.jpg")
+} 
 footer{
     width:100%;
     height:100px;
-    background-color:#8701fe;
     margin:20px 0 0 0;
+    text-align: center;
+    font-size:18;
+}
+footer span{
+    color:red;
+    font-size:25px;
 }
