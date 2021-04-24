@@ -39,18 +39,20 @@ nav li{
 }
 .text-image{
     width:100%;
-    height:600px;
+    height:500px;
     background-size:100%;
     border-radius:20px;
     padding:50px;
+    /* color:white; */
 }
 .photo{
     background-image:url("../img/banner.jpg");
+    background-position:center;
 }
 .primo{
     font-size:33px;
     width:57%;
-    margin-top:370px;
+    margin-top:250px;
     font-weight:400;
     
 }
@@ -133,7 +135,7 @@ nav li{
     vertical-align: middle;
 }
 .image2{
-    background-image:url("../img/img-3.jpg")
+    background-image:url("../img/img-3.jpg");
 } 
 
 footer{
